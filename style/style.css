@@ -48,3 +48,54 @@ body {
   }
   
   /* end navigation */
+
+  
+/* Banner Area */
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+  }
+  
+  .site-main .site-banner .site-title h3::after {
+    content: " ";
+    height: 2px;
+    width: 34vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+  }
+  
+  .site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+  }
+  
+  .site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+  }
+  
+  .site-main .site-banner .banner-image > img {
+    padding: 7rem 0;
+    width: 90rem;
+  }
+  
+  /* End Banner Area */
+
+  /* Start About Area */
+
+.site-main .about-area {
+    padding: 8rem 5rem;
+  }
+  
+  .site-main .about-area .about-title h2 > span {
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 0px;
+  }
+  
+  .site-main .about-area .about-title .paragraph > p {
+    padding: 0.4rem 0;
+  }
+  
+  /* End About Area */
