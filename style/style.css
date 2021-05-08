@@ -230,3 +230,77 @@ body {
 }
 
 /* End Project Area */
+
+/* Contact us */
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #1a1a1a;
+  color: rgb(255, 255, 255);
+  padding: 12px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #342bb4;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #fdfdfd;
+  padding: 10px;
+}
+
+/* End contact us */
+
+/* Footer Area */
+
+footer.footer-area {
+  padding: 2rem 0;
+}
+
+footer.footer-area .social h5 {
+  font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--primary-color3);
+}
+
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color);
+}
+
+/* End Footer */
