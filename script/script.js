@@ -13,6 +13,7 @@ $(document).ready(function () {
     return false;
   });
 
+  
   $(".project-area .button-group #btn1").trigger("click");
 
   $(".project-area .grid .test-popup-link").magnificPopup({
